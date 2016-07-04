@@ -1,0 +1,11 @@
+imgPath = "Res/Enemy/enemy02.png"
+name = "acrossL"
+bulletType = 3
+hpMax = 5
+duration = 0
+stayTime = 0
+moveSpeed = 5
+score = 100
+layer = 1
+itemID = 0
+moveStateID = 2

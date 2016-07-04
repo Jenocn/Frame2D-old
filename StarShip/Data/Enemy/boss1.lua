@@ -1,0 +1,11 @@
+imgPath = "Res/Enemy/boss01.png"
+name = "boss1"
+bulletType = 100
+hpMax = 2500
+duration = 0.8
+stayTime = 180
+moveSpeed = 3
+score = 1000
+layer = 3
+itemID = 0
+moveStateID = 1

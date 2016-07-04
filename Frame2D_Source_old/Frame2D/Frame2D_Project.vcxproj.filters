@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{7ae7499b-59db-4bf9-808c-62e2bfcd43d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\2D">
+      <UniqueIdentifier>{833c28dd-b2e9-4942-8d7e-f579c2ed9a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Audio">
+      <UniqueIdentifier>{bce41375-8485-43f0-b7d7-575b6b4f953b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Window">
+      <UniqueIdentifier>{03838c27-abf5-46cd-a821-f62cb41c120f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Render">
+      <UniqueIdentifier>{f24d17bb-3162-4a45-927e-58528773530e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_Use.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F2DEnum.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F2DMacros.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F2DStruct.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame2D.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\Action.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\ActionRealize.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\Animation.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\Director.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\Element.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\EventDispatcher.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\EventObj.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\Function.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\Listener.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\Object.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\Particle.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\ParticleSystem.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\Scene.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\Sprite.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\SpriteGroup.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="2D\TextSprite.h">
+      <Filter>src\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioCache.h">
+      <Filter>src\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioManager.h">
+      <Filter>src\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Fmod.h">
+      <Filter>src\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\FMODManager.h">
+      <Filter>src\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Frame2D_Audio.h">
+      <Filter>src\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Sound.h">
+      <Filter>src\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\SoundBehavior.h">
+      <Filter>src\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Camera.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\D3DManager.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\DX9.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\DxFont.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\DxFontCache.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\DxLine.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\DxPoint.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\DxTriangle.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Frame2D_Render.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Texture2D.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\TextureCache.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\Frame2D_Window.h">
+      <Filter>src\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\OpenFileDialog.h">
+      <Filter>src\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\Win32.h">
+      <Filter>src\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\WindowManager.h">
+      <Filter>src\Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\Action.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\ActionRealize.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\Animation.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\Director.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\Element.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\EventDispatcher.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\EventObj.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\Function.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\Listener.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\Particle.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\ParticleSystem.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\Scene.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\Sprite.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\SpriteGroup.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="2D\TextSprite.cpp">
+      <Filter>src\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioCache.cpp">
+      <Filter>src\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioManager.cpp">
+      <Filter>src\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\FMODManager.cpp">
+      <Filter>src\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Sound.cpp">
+      <Filter>src\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\SoundBehavior.cpp">
+      <Filter>src\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Camera.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\D3DManager.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\DxFont.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\DxFontCache.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\DxLine.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\DxPoint.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\DxTriangle.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Texture2D.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\TextureCache.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\OpenFileDialog.cpp">
+      <Filter>src\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\WindowManager.cpp">
+      <Filter>src\Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

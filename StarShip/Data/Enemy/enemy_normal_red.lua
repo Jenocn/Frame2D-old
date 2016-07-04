@@ -1,0 +1,11 @@
+imgPath = "Res/Enemy/enemy01_red.png"
+name = "normal_red"
+bulletType = 1
+hpMax = 1
+duration = 0
+stayTime = 1
+moveSpeed = 3
+score = 50
+layer = 1
+itemID = 1001
+moveStateID = 1

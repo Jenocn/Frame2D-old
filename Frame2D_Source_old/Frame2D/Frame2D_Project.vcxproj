@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{45B9F0CF-71F9-4D59-8CFA-AEFC167D485D}</ProjectGuid>
+    <RootNamespace>Frame2D_Project</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>Frame2D</TargetName>
+    <LibraryPath>D:\users\jishu\documents\visual studio 2013\Projects\Frame2D_Project\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="2D\Action.h" />
+    <ClInclude Include="2D\ActionRealize.h" />
+    <ClInclude Include="2D\Animation.h" />
+    <ClInclude Include="2D\Director.h" />
+    <ClInclude Include="2D\Element.h" />
+    <ClInclude Include="2D\EventDispatcher.h" />
+    <ClInclude Include="2D\EventObj.h" />
+    <ClInclude Include="2D\Function.h" />
+    <ClInclude Include="2D\Listener.h" />
+    <ClInclude Include="2D\Object.h" />
+    <ClInclude Include="2D\Particle.h" />
+    <ClInclude Include="2D\ParticleSystem.h" />
+    <ClInclude Include="2D\Scene.h" />
+    <ClInclude Include="2D\Sprite.h" />
+    <ClInclude Include="2D\SpriteGroup.h" />
+    <ClInclude Include="2D\TextSprite.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Audio\AudioCache.h" />
+    <ClInclude Include="Audio\AudioManager.h" />
+    <ClInclude Include="Audio\Fmod.h" />
+    <ClInclude Include="Audio\FMODManager.h" />
+    <ClInclude Include="Audio\Frame2D_Audio.h" />
+    <ClInclude Include="Audio\Sound.h" />
+    <ClInclude Include="Audio\SoundBehavior.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="F2DEnum.h" />
+    <ClInclude Include="F2DMacros.h" />
+    <ClInclude Include="F2DStruct.h" />
+    <ClInclude Include="Frame2D.h" />
+    <ClInclude Include="Render\Camera.h" />
+    <ClInclude Include="Render\D3DManager.h" />
+    <ClInclude Include="Render\DX9.h" />
+    <ClInclude Include="Render\DxFont.h" />
+    <ClInclude Include="Render\DxFontCache.h" />
+    <ClInclude Include="Render\DxLine.h" />
+    <ClInclude Include="Render\DxPoint.h" />
+    <ClInclude Include="Render\DxTriangle.h" />
+    <ClInclude Include="Render\Frame2D_Render.h" />
+    <ClInclude Include="Render\Texture2D.h" />
+    <ClInclude Include="Render\TextureCache.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Window\Frame2D_Window.h" />
+    <ClInclude Include="Window\OpenFileDialog.h" />
+    <ClInclude Include="Window\Win32.h" />
+    <ClInclude Include="Window\WindowManager.h" />
+    <ClInclude Include="_Use.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2D\Action.cpp" />
+    <ClCompile Include="2D\ActionRealize.cpp" />
+    <ClCompile Include="2D\Animation.cpp" />
+    <ClCompile Include="2D\Director.cpp" />
+    <ClCompile Include="2D\Element.cpp" />
+    <ClCompile Include="2D\EventDispatcher.cpp" />
+    <ClCompile Include="2D\EventObj.cpp" />
+    <ClCompile Include="2D\Function.cpp" />
+    <ClCompile Include="2D\Listener.cpp" />
+    <ClCompile Include="2D\Particle.cpp" />
+    <ClCompile Include="2D\ParticleSystem.cpp" />
+    <ClCompile Include="2D\Scene.cpp" />
+    <ClCompile Include="2D\Sprite.cpp" />
+    <ClCompile Include="2D\SpriteGroup.cpp" />
+    <ClCompile Include="2D\TextSprite.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Audio\AudioCache.cpp" />
+    <ClCompile Include="Audio\AudioManager.cpp" />
+    <ClCompile Include="Audio\FMODManager.cpp" />
+    <ClCompile Include="Audio\Sound.cpp" />
+    <ClCompile Include="Audio\SoundBehavior.cpp" />
+    <ClCompile Include="Render\Camera.cpp" />
+    <ClCompile Include="Render\D3DManager.cpp" />
+    <ClCompile Include="Render\DxFont.cpp" />
+    <ClCompile Include="Render\DxFontCache.cpp" />
+    <ClCompile Include="Render\DxLine.cpp" />
+    <ClCompile Include="Render\DxPoint.cpp" />
+    <ClCompile Include="Render\DxTriangle.cpp" />
+    <ClCompile Include="Render\Texture2D.cpp" />
+    <ClCompile Include="Render\TextureCache.cpp" />
+    <ClCompile Include="Window\OpenFileDialog.cpp" />
+    <ClCompile Include="Window\WindowManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

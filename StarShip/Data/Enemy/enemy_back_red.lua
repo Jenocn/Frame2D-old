@@ -1,0 +1,11 @@
+imgPath = "Res/Enemy/enemy03_red.png"
+name = "back_red"
+bulletType = 2
+hpMax = 8
+duration = 0.9
+stayTime = 3
+moveSpeed = 4
+score = 100
+layer = 2
+itemID = 1003
+moveStateID = 4
